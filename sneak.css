@@ -1,0 +1,211 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+ }
+ body {
+
+    background-color: #F1F1F1;
+}
+@font-face {
+    font-family:'Anonymous Pro';
+    src: url('https://fonts.googleapis.com/css2?family=Anonymous+Pro:wght@400;700&family=League+Spartan:wght@400;700&family=Open+Sans:wght@300&family=Roboto+Slab:wght@100;200;300;400;500;700;900&family=Victor+Mono:wght@200&display=swap');
+} 
+
+
+li {
+    list-style-type: none; /* Убираем маркеры */
+   }
+
+header{
+    background:white
+}
+main{
+    background: #F1F1F1;
+    padding-bottom: 32px;
+}
+footer{
+    background: #121723;
+   
+}
+a {
+    display:inline-block;
+    color:black;
+  margin:0px;
+}
+.head{
+    
+    display: flex;
+    justify-content: space-between; 
+
+    /* скопировал из ревью, но лого поплыл
+    у тебя эраунд было, но с битвином же лучше, правда */
+
+}
+.nav-head{
+color: black;
+margin:18px;
+font-size: 18px;
+
+}
+.logo{
+padding-top: 24px;
+padding-bottom: 24px;
+padding-left: 150px;
+}
+.nav{
+    display: flex;
+   padding-left: 600px;
+   padding-top: 30px;
+}
+.container{
+    padding-top: 32px;
+    margin-right: 10%;
+    margin-left: 10%;
+    display: block;
+}
+.card{
+    width: 1140px;
+    height: 1588px;
+    padding: 48px;
+   background: white;
+
+    border-radius: 50px;
+}
+.nike{
+    width: 1044px;
+    height: 600px;
+    border-radius: 50px, 50px, 0px, 0px;
+}
+
+.img{
+    justify-content: center;
+    align-items: center;
+}
+.description{
+    display: flex;
+    flex-wrap: wrap;
+   
+}
+.desc-title{
+    padding: 32px 0px 24px 48px;
+    font-family:' Anonymous Pro', monospace;
+font-size: 48px;
+font-weight: 400;
+line-height: 48px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+.desc-subtitle{
+    font-family:' Anonymous Pro', monospace;
+    font-size: 36px;
+font-weight: 400;
+line-height: 36px;
+letter-spacing: 0em;
+text-align: left;
+    padding: 24px 0px 24px 48px;
+}
+.description-text{
+    width: 506px; 
+    height: 728px;
+    padding: 24px 32px 48px 48px;
+     color: #121723;
+     font-family: 'Anonymous Pro', monospace;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.to-description-right{
+padding: 24px 0px 0px 32px;
+    width: 506px;
+    height: 258px;
+    gap: 24px;
+  
+
+}
+.title-right{
+font-family: 'Anonymous Pro',monospace;
+font-size: 30px;
+font-weight: 400;
+line-height: 30px;
+letter-spacing: 0em;
+text-align: left;
+padding-bottom: 20px;
+border-bottom:   1px solid #121723;
+}
+
+
+
+.wrapers{
+  
+flex-wrap: wrap;
+/* нужно сделать дивы раздельно в этом классе */
+
+}
+.wrap{
+   font-family: 'Anonymous Pro',monospace;
+   color: #121723;
+   justify-content: space-between;
+   display: flex;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    width: 506px;
+height: 20px;
+padding-top: 24px;
+padding-bottom: 20px;
+border-bottom:   1px solid #121723;
+}
+
+
+/* пошел футер */
+.foot{
+    display: flex;
+    
+    align-items: center;
+    }
+.sub-logo{
+        padding-top: 34px;
+        padding-left: 150px;
+    
+    }
+.nav{
+        display: flex;
+       padding-left: 600px;
+       padding-top: 30px;
+    }
+    .line{
+        margin-top: 32px;
+        border-top:1px solid #E6E8EC66;
+        width: 95%;
+          max-width: 1240px;
+        justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    }
+    .full{
+        padding:24px;
+        text-align: center;
+        }
+        .finish{
+            font-family: 'Anonymous Pro', monospace;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 16px;
+        letter-spacing: 0em;
+        color: #A1A6B4;
+        
+        
+        }
+        .footer-soc{
+            color: white;
+          margin: 18px;
+            font-size: 18px;
+           
+        }
